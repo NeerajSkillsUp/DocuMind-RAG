@@ -1,0 +1,32 @@
+# Local Environment Variables Secrets Matrix
+.env
+.env.local
+.env.production
+
+# Python Runtime Cache Bloat
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Frontend Node Cache Modules and Distribution Packages
+node_modules/
+dist/
+build/
+.cache/
+
+# Local Database Stores and Ephemeral Vectors
+backend/app/documind.db
+backend/app/chroma_db/
+backend/app/uploads/
+documind.db
+chroma_db/
+uploads/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db

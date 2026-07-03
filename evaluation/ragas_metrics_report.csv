@@ -1,0 +1,14 @@
+Question,Ground Truth,Generated Answer,Faithfulness,Answer Relevance,Context Recall
+for which role is Tredence hiring interns?,AI Engineering Intern,Tredence is hiring interns for the AI Engineering Intern role [Document - Page 1]. This is for the AI Engineering Internship – 2025 Cohort within Tredence Studio’s AI Agents Engineering team [Document - Page 6].,1.0,1.0,1.0
+What is the duration of the internship at Tredence?,6 months to 1 year,"The duration of the internship at Tredence is 6 months to 1 year [Document - Page 7], [Document - Page 1]. It is also stated that it can be extendable/convertible, with a PPO (Pre-Placement Offer) given based on performance [Document - Page 1].",1.0,1.0,1.0
+What are the three pricing models discussed in parking report?,"Basic Linear Pricing, Demand-Based Pricing, and Competitive Pricing","The three pricing models discussed in the parking report are:
+*   Basic Linear Pricing (Model 1) [Document - Page 1]
+*   Demand-Based Pricing (Model 2) [Document - Page 1]
+*   Competitive Pricing (Model 3) [Document - Page 1]",1.0,1.0,1.0
+What is the formula for Basic Linear Pricing model?,New Price = Previous Price + a * Occupancy Rate,The formula for the Basic Linear Pricing model (Model 1) is: New Price = Previous Price + α × Occupancy Rate [Document - Page 2].,1.0,1.0,1.0
+What factors are considered in Demand-Based Pricing for parking?,"Occupancy rate, queue length, traffic congestion, special events, and vehicle type","The factors considered in Demand-Based Pricing (Model 2) for parking are:
+*   Occupancy rate [Document - Page 2]
+*   Queue length [Document - Page 2]
+*   Traffic congestion [Document - Page 2]
+*   Special events (holidays, concerts) [Document - Page 2]
+*   Vehicle type (car, truck, bike) [Document - Page 2]",1.0,1.0,1.0
