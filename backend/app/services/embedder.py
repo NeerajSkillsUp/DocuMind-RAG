@@ -9,7 +9,7 @@ def get_embeddings_transformer() -> GoogleGenerativeAIEmbeddings:
     """
     return GoogleGenerativeAIEmbeddings(
         model="gemini-embedding-2-preview",  # Updated model string name
-        client_options={"timeout": 120.0}
+        request_options={"timeout": 120.0}
     )
 
 def embed_texts(texts: List[str]) -> List[List[float]]:
