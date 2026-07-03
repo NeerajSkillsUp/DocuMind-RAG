@@ -35,7 +35,7 @@ def create_conversation(doc_id: str, db: Session = Depends(get_db)):
     return new_conv
 
 @router.post("/chat/message/{conversation_id}", response_model=MessageResponse)
-def send_message(conversation_id: str, payload: MessageCreate, db: Session = Depends(get_db)):
+async def send_message(conversation_id: str, payload: MessageCreate, db: Session = Depends(get_db)):
     conv = db.query(Conversation).filter(Conversation.id == conversation_id).first()
     if not conv:
         raise HTTPException(status_code=404, detail="Active dialogue thread session mapping not found.")
