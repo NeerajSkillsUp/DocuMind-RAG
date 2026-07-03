@@ -8,7 +8,7 @@ def get_embeddings_transformer() -> GoogleGenerativeAIEmbeddings:
     Uses 'gemini-embedding-2-preview' for the free Gemini Developer API tier.
     """
     return GoogleGenerativeAIEmbeddings(
-        model="gemini-embedding-2-preview",  # Updated model string name
+        model="models/gemini-embedding-2-preview",  # Updated model string name
         request_options={"timeout": 120.0}
     )
 
